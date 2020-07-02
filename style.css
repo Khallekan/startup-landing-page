@@ -1,0 +1,62 @@
+body,html{
+	width:  100%;
+	height: 100%;
+}
+
+body
+{
+	font-family: "Calibiri";
+}
+
+h1 + hr
+{
+	max-width: 70px;
+	border-width: 4px;
+	border-radius: 50px;
+	border-color: #F05F44;
+}
+
+.khal-1
+{
+	margin-top: 200px;
+	margin-bottom: 30px;
+}
+.khal-2
+{
+	margin-bottom: 160px;
+	font-size: 2rem;
+}
+.startup
+{
+	background: url("header.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+.btn-primary
+{
+	background-color: #F05F44;
+	border-width: 1px;
+	border-color: #F05F44; 	
+	border-radius: 30px;
+} 
+.btn-primary:hover
+{
+	background: #ee4b08;
+	border-color: #ee4b08;
+	border-width: 5px;
+}
+.btn
+{
+	transition: all 1s; 
+}
+.btn:hover
+{
+	cursor: pointer;
+	transform: scale(1.1); 
+}
+.btn-xl
+{
+	padding: 1rem 2rem;
+}
+
